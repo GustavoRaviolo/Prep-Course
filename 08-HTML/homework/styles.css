@@ -1,0 +1,89 @@
+/*li{
+    text-align: center;
+    
+     
+}*/
+#thirdDiv{
+    display: flex;
+    flex-wrap: wrap;
+    height: 510px;
+    /*width: 500px;*/
+    max-width: 500px;
+    /*background-color:#C0392B;*/
+    /*border: 6px solid beige;*/
+    margin: auto;
+    /*margin-left: auto;
+    margin-right:auto;
+    margin-top: 5px;*/
+    margin-bottom:20px;
+    
+ 
+}
+img{
+    max-width: 85%; /*500px;*/
+    text-align: center;
+   border: 2px solid beige;
+    padding: 10px;
+ }
+h1{
+    color: brown;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+body{
+    background-color: black;
+    background-image: url("/08-HTML/homework/imagenes/fondo10.jpg");
+}
+.divClass
+{
+    background-color:beige;
+    max-width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 10px 0px 20px 0px; /*padding-top, padding-right, padding-bottom, padding-left*/
+}
+.divClass2
+{
+    background-color: brown;
+    width: 80%;
+    margin:0 auto;
+    text-align: center;
+    padding: 20px 0px 20px 0px;
+}
+#spanId{
+    font-size: 18px;
+    font-style:italic;
+    color: aliceblue;
+    
+    
+}
+p{
+    padding: 0px 40px 0px 40px; /*padding-top, padding-right, padding-bottom, padding-left*/
+}
+.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 250px;
+    background-color:#e2d4d3;
+    padding: 10px 10px 10px 10px;
+  }
+
+ .flex-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:black;
+   
+ }
+ .flex-container div{
+    justify-content:center;
+    padding: 20px;
+    color: aliceblue;
+    max-width: 200px;
+    text-align: center;
+    
+    
+  }
+
+  
