@@ -1,0 +1,59 @@
+.container-flex{
+    display: flex;
+    flex-wrap:wrap;
+    flex-direction: column;
+    justify-content: center;
+    background-color:#34495E;
+   
+    color: #f1f2f3;
+
+    
+    padding:3rem;
+    margin: 25px auto;
+    max-width:800px;
+   
+    
+
+}
+p{
+    
+    
+    
+    text-justify: auto;
+}
+.titulo{
+    
+    background-color: #22313F;
+    text-align: center;
+    border: 2px solid beige;
+    padding: 10px;
+}
+
+body {
+    background-color:#f1f2f3;
+    font-family:'Segoe UI';
+    background-image: url(/08-HTML/homework/imagenes/fondo_cv.jpg);
+}
+
+h1 {
+    margin-bottom:1rem;
+    color:#ff9900;
+    font-weight:600;
+}
+h3 {
+    color:#60b8e4;
+    font-weight:500;
+}
+
+.foto{
+    padding-top: 3%;
+    text-align: center;
+}
+img{
+    
+    
+    max-width: 85%; /*500px;*/
+    border: 2px solid beige;
+    padding: 10px;
+}
+
