@@ -3,10 +3,16 @@ Lección 3: Tarea de posicionamiento con CSS. Todo el trabajo debe hacerse en es
 archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 */
 
+
 /* Ejercicio 1: Centrar el texto en un span */
 
 /* Arrancaremos este ejercicio por vos: */
 #ejercicioUno {
+display:block;
+text-align:center;
+/*max-width:800px;
+margin-left: auto;
+margin-right: auto; Para que quede centrado el bloque o elemento*/
 
 }
 
@@ -14,24 +20,92 @@ archivo en cualquiera de estas carpetas, estás en el lugar equivocado.
 /* Ejercicio 2: Posicionar el header */
 
 /* Acá va tu código */
+#ejercicioDos{
+    display:none;
+}
 
 
 
 /* Ejercicio 3: */
-
+#ejercicioTres{
+    position:relative;
+    top:20%;
+    left:20%;
+}
 /* Acá va tu código */
 
 
 
 /* Ejercicio 4: */
+#ejercicioCuatro{
+    position:fixed;
+    top:0%;
+    height: 90px;
+    }
 
-/* Acá va tu código */
-
+#header{
+    margin-top: 7%;
+    
+}
 
 
 /* Ejercicio 5: */
 
-/* Acá va tu código */
+#ejercicioCinco{
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+/*  Ejercicio 6*/
+    flex-direction:row-reverse;
+
+}
+
+#ejercicioSiete{
+    display:flex;
+    gap: 5px;/* espacio entre elementos dentro de un contenedor*/
+    flex-direction:row-reverse;
+    width: 600px;
+    padding: 10px 5px 0px 5px;/* top right bottom left*/
+    background-color: #3574D2;
+    background-image:url("/09-CSS-Positioning/homework/assets/img/logo-henry.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    
+}
+#elementoUno{
+    
+    background-color:#008000;
+    justify-content: center;
+    color: aliceblue;
+}
+#elementoDos{
+    
+    background-color:#FFA500;
+    justify-content: center;
+    color: aliceblue;
+}
+#elementoTres{
+    background-color:#0000FF;
+    justify-content: center;
+    color: aliceblue;
+}
+#elementoCuatro{
+    background-color:#FF0000;
+    justify-content: center;
+    color: aliceblue;
+}
+
+.firma{
+    position: fixed;
+    right: 0%;
+    bottom: 0%;
+    background-color:#3574D2;
+    color: aliceblue;
+    padding:3px 2% 3px 2% ;/* top right bottom left*/
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px 0px 0px 0px ;
+
+}
 
 
 
