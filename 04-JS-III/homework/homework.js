@@ -263,8 +263,30 @@ function mesesDelAño(array) {
   else
   return "No se encontraron los meses pedidos"
 }
+//ALTERNATIVA Usando If
+/*var array_meses_nvo=[];
+  for(let i=0;i<array.length;i++)
+  {
+    if(array[i]==="Enero")
+    {
+      array_meses_nvo.push(array[i]);
+    }
+    else if (array[i]==="Marzo")
+    {
+      array_meses_nvo.push(array[i]);
+    }
+    else if (array[i]==="Noviembre")
+    {
+      array_meses_nvo.push(array[i]);
+    }
+  }
 
-
+  if (array_meses_nvo.length==3)
+  {
+    return array_meses_nvo;
+  }
+  else return "No se encontraron los meses pedidos";
+*/
 function mayorACien(array) {
   //La función recibe un array con enteros entre 0 y 200. Recorrer el array y guardar en un nuevo array sólo los
   //valores mayores a 100 (no incluye el 100). Finalmente devolver el nuevo array.
