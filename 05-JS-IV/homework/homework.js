@@ -191,6 +191,12 @@ function agregarMetodoCalculoDescuento(producto) {
    }
 return producto;
 }
+ //ALTERNATIVO -> Tambien paso el depurador
+ // let desc;
+  // desc=producto.precio * producto.porcentajeDeDescuento;
+  // producto["calcularPrecioDescuento"]=function() {return producto.precio - desc; }
+  
+  // return producto;
 
 // No modificar nada debajo de esta línea
 // --------------------------------
