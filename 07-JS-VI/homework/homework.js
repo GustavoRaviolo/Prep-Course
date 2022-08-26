@@ -105,10 +105,14 @@ function filter(array) {
   // array = ['abajo', 'pera', 'escalera', 'alerta', 'indice', 'azteca', 'arbol', 'buzo'];
 const nvo_array=array.filter(valor=>valor.charAt(0)==="a");
 return nvo_array;
-// function funcion(value)
-// {
-// return value[0]==="a";
-// }
+
+  //Otra forma no tan efectva, con mas codigo
+  //var vector_fil= array.filter(function(palabra) { if(palabra[0]=="a")
+//                                                           {
+//                                                             return palabra;
+//                                                           }
+//                                                         });
+// return vector_fil;
 
 
 }
